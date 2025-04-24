@@ -65,7 +65,7 @@ colorCode.forEach((eachCode) => {
     child.addEventListener("click", () => {
       // Play sound
       const sound = new Howl({
-        src: ["./assets/Click-1.m4a"],
+        src: ["./assets/Click-1.mp3"],
         volume: 0.8,
       });
       sound.play();
