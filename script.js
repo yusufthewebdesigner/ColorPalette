@@ -66,7 +66,8 @@ childs.forEach((child) => {
   child.addEventListener("click", () => {
     // Play sound
     const sound = new Howl({
-      src: ["./assets/Click-1.mp3"],
+      // sound extension must be 'm4a' to be supported in all browser
+      src: ["./assets/Click-1.m4a"],
       volume: 0.8,
     });
     sound.play();
