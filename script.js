@@ -41,19 +41,17 @@ childs.forEach((child) => {
   hovMsg.innerText = "Copy";
   child.append(hovMsg);
 
+  let hovMessage = child.querySelector(".hovMsg");
   // to show the copy message on hover
   child.addEventListener("mouseover", () => {
-    let hovMessage = child.querySelector(".hovMsg");
     hovMessage.style.display = "block";
   });
   // to hide the copy message after clicking
   child.addEventListener("click", () => {
-    let hovMessage = child.querySelector(".hovMsg");
     hovMessage.style.display = "none";
   });
   // to hide the copy message after hover
   child.addEventListener("mouseleave", () => {
-    let hovMessage = child.querySelector(".hovMsg");
     hovMessage.style.display = "none";
   });
 });
