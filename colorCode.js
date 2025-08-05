@@ -45,5 +45,4 @@ export let colorCode = [
   "#f5ebe0",
   "#f2e8da",
   "#d5bdaf",
-  "#000"
 ];
